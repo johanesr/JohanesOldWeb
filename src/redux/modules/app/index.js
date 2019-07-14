@@ -1,14 +1,6 @@
 import * as types from './types';
 
 export const initialState = {
-  account: {
-    loading: false,
-    loaded: false,
-    data: {}
-  },
-  context: {
-    lang: 'id'
-  },
   display: {
     isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
   },

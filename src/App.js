@@ -2,6 +2,10 @@ import React, {PureComponent} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { renderRoutes } from 'react-router-config';
+import { BrowserRouter } from 'react-router-dom';
+import routes from './routes/index';
+
 class App extends PureComponent{
   state = {
     isMobile: false
@@ -16,10 +20,14 @@ class App extends PureComponent{
 
   render() {
     const {isMobile} = this.state;
+
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <BrowserRouter>
+            {renderRoutes(routes)}
+          </BrowserRouter>
           <p>
             {!isMobile ? "Web Display" : "Mobile Display"}
             Edit <code>src/App.js</code> and save to reload.(Test Rule)

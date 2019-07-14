@@ -7,20 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import routes from './routes/index';
 
 class App extends PureComponent{
-  state = {
-    isMobile: false
-  };
-
-  componentDidMount() {
-    //Determine if the App is mobile or web
-    this.setState({
-      isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
-    });
-  }
-
   render() {
-    const {isMobile} = this.state;
-
     return (
       <div className="App">
         <header className="App-header">
@@ -29,7 +16,6 @@ class App extends PureComponent{
             {renderRoutes(routes)}
           </BrowserRouter>
           <p>
-            {!isMobile ? "Web Display" : "Mobile Display"}
             Edit <code>src/App.js</code> and save to reload.(Test Rule)
           </p>
           <a

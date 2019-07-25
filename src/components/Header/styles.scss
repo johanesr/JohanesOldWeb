@@ -1,0 +1,25 @@
+.header-wrapper {
+  color: #ffffff;
+  font-size: 32px;
+
+  ul {
+    list-style-type: none;
+    padding: 10px 0 0 20px;
+    overflow: hidden;
+  }
+
+  .header-home {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .header-menu {
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .header-name {
+    padding-top: 24px;
+    padding-left: 32px;
+  }
+}

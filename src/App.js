@@ -1,35 +1,32 @@
 import React, {PureComponent} from 'react';
-import logo from './logo.svg';
+import { connect } from 'react-redux';
+import { bool } from 'prop-types';
+
 import './App.css';
 
 import { renderRoutes } from 'react-router-config';
 import { BrowserRouter } from 'react-router-dom';
+
 import routes from './routes/index';
 
 class App extends PureComponent{
+  static propTypes = {
+    isMobile: bool
+  };
+
   render() {
+    const { isMobile } = this.props;
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <BrowserRouter>
-            {renderRoutes(routes)}
-          </BrowserRouter>
-          <p>
-            Edit <code>src/App.js</code> and save to reload.(Test Rule)
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className={isMobile ? "mobile-layout" : "desktop-layout"}>
+        <BrowserRouter>
+          {renderRoutes(routes)}
+        </BrowserRouter>
       </div>
     );
   }
 }
 
-export default App;
+export default connect(state => ({
+  isMobile: state.app.display.isMobile
+}))(App);

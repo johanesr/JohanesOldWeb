@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bool } from 'prop-types';
 
-import asyncComponent from '../../helpers/component';
+import './styles.scss';
+
+import asyncComponent from '../../helpers/asyncComponent';
 
 const DesktopHome = asyncComponent(() =>
   import('./Home.desktop')

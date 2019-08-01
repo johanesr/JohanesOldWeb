@@ -6,18 +6,17 @@ class Header extends PureComponent {
   render() {
     return (
       <div className="header-wrapper">
-        {/*<div className="container">*/}
-          <div className="row">
-            <div className="col header-home">
-              Home
-            </div>
-            <div className="col text-center">
-              JR
-            </div>
-            <div className="col header-menu">
-              Test
-            </div>
+        <div className="row">
+          <div className="col header-home">
+            Home
           </div>
+          <div className="col header-name text-center">
+            Johanes Ronaldo
+          </div>
+          <div className="col header-menu">
+            Test
+          </div>
+        </div>
       </div>
     )
   }

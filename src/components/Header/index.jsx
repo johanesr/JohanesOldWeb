@@ -8,13 +8,13 @@ class Header extends PureComponent {
       <div className="header-wrapper">
         <div className="row">
           <div className="col header-home">
-            Home
+            <span>Home</span>
           </div>
           <div className="col header-name text-center">
-            Johanes Ronaldo
+            <span>Johanes Ronaldo</span>
           </div>
           <div className="col header-menu">
-            Test
+            <span>Test</span>
           </div>
         </div>
       </div>

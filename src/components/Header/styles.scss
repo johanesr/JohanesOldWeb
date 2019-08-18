@@ -1,25 +1,13 @@
 .header-wrapper {
-  color: #ffffff;
+  position: sticky;
+  top: 0;
+  color: #000;
   font-size: 32px;
-
-  ul {
-    list-style-type: none;
-    padding: 10px 0 0 20px;
-    overflow: hidden;
-  }
-
-  .header-home {
-    text-align: left;
-    margin-left: 20px;
-  }
-
-  .header-menu {
-    text-align: right;
-    margin-right: 20px;
-  }
+  background-color: rgba(0, 0, 0, 0);
 
   .header-name {
     font-family: 'Indie Flower', sans-serif;
-    font-size: 50px;
+    font-size: 32px;
+    padding-left: 15px;
   }
 }

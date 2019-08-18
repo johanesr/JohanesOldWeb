@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { bool } from 'prop-types';
 
 import './styles.scss';
+import '../../styles/index.scss';
 
 import asyncComponent from '../../helpers/asyncComponent';
 

@@ -1,0 +1,304 @@
+.desktop-layout {
+  .home-wrapper {
+    .row {
+      margin: 0;
+    }
+
+    .home-header {
+      display: block;
+      min-height: 100vh;
+      width: 100%;
+      background-image: url("./assets/home-background.png");
+      background-color: #000; //In case image is unavailable
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      color: #fff;
+
+      .header-title {
+        padding-top: 7.5%;
+      }
+
+      .header-name {
+        font-family: 'Indie Flower', sans-serif;
+        font-size: 64px;
+      }
+
+      .header-desc {
+        position: absolute;
+        bottom: 13.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        font-size: 32px;
+      }
+    }
+
+    .home-experience {
+      background-color: aliceblue;
+      margin-top: -7px;
+
+      .experience-title {
+        padding: 7.5% 0;
+        font-size: 32px;
+      }
+
+      .experience-content {
+        padding-bottom: 30px;
+
+        .experience-image {
+          border: 1px solid #E3E3E3;
+          background-color: white;
+          height: 300px;
+          width: 400px;
+          margin-bottom: 50px;
+        }
+
+        .experience-position {
+          color: #5E9516;
+          font-weight: 600;
+        }
+      }
+
+      .cv-download {
+        font-size: 50px;
+        font-weight: 400;
+        padding: 0 0 50px;
+      }
+    }
+    
+    .home-about {
+      background-color: #E3E3E3;
+      color: #000;
+      text-align: center;
+
+      .profile-image {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin: 3%;
+      }
+
+      .about-title {
+        padding: 0 0 3%;
+        font-size: 32px;
+      }
+
+      .about-square {
+        width: 300px;
+        height: 300px;
+        line-height: 300px;
+        border: 10px solid black;
+        margin: 0 15px 5%;
+      }
+    }
+
+    .home-contact {
+      text-align: center;
+
+      .profile-image {
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin: 3%;
+      }
+
+      .contact-title {
+        text-align: center;
+        //padding: 3% 0;
+        font-size: 32px;
+      }
+
+      @media only screen and (min-width: 1280px) {
+        .line-with-text:before {
+          margin-left: -55%;
+          top: 70px;
+        }
+
+        .line-with-text:after {
+          margin-right: -55%;
+          bottom: 70px;
+        }
+      }
+      @media only screen and (min-width: 1920px) {
+        .line-with-text:before {
+          margin-left: -40%;
+          top: 70px;
+        }
+
+        .line-with-text:after {
+          margin-right: -40%;
+          bottom: 70px;
+        }
+      }
+
+      @media only screen and (min-width: 2560px) {
+        .line-with-text:before {
+          margin-left: -33%;
+          top: 70px;
+        }
+
+        .line-with-text:after {
+          margin-right: -33%;
+          bottom: 70px;
+        }
+      }
+
+      @media only screen and (min-width: 3840px) {
+        .line-with-text:before {
+          margin-left: -25%;
+          top: 70px;
+        }
+
+        .line-with-text:after {
+          margin-right: -25%;
+          bottom: 70px;
+        }
+      }
+
+      .contact-social-media {
+        margin: 25px 0 75px;
+
+        .contact-image {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+.mobile-layout {
+  .home-wrapper {
+    background-color: #000;
+
+    .home-header {
+      display: block;
+      min-height: 100vh;
+      width: 100%;
+      background-image: url("./assets/home-background.png");
+      background-color: #000; //In case image is unavailable
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200% auto;
+      color: #fff;
+
+      .header-title {
+        padding-top: 25%;
+      }
+
+      .header-name {
+        font-family: 'Indie Flower', sans-serif;
+        font-size: 64px;
+      }
+
+      .header-desc {
+        position: absolute;
+        bottom: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        font-size: 15px;
+      }
+    }
+
+    .home-experience {
+      background-color: aliceblue;
+      margin-top: -7px;
+
+      .experience-title {
+        padding: 7.5% 0;
+        font-size: 32px;
+        font-weight: 800;
+      }
+
+      .experience-image {
+        border: 1px solid #E3E3E3;
+        background-color: white;
+        //border-radius: 15%;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 20px;
+      }
+
+      .experience-content {
+        padding-bottom: 30px;
+
+        .experience-position {
+          color: #5E9516;
+          font-weight: 600;
+        }
+      }
+
+      .experience-show {
+        color: #798BD5;
+        padding-bottom: 50px;
+        font-weight: 800;
+        font-size: 24px;
+        text-decoration: underline;
+       }
+
+      .cv-download {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0 0 50px;
+      }
+    }
+
+    .home-about {
+      background-color: #E3E3E3;
+      color: #000;
+      text-align: center;
+
+      .about-title {
+        padding: 7.5% 0;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .profile-image {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-top: 5%;
+      }
+
+      .about-image {
+        border: 1px solid #E3E3E3;
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 50px;
+      }
+    }
+
+    .home-contact {
+      text-align: center;
+      background-color: #fff;
+
+      .profile-image {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin-top: 5%;
+      }
+
+      .contact-title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+        padding: 20px;
+      }
+
+      .contact-social-media {
+        margin: 25px 0 50px;
+
+        .contact-image {
+          width: 150px;
+          height: 150px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}

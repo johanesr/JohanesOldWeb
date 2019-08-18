@@ -1,0 +1,27 @@
+.line-with-text {
+  overflow: hidden;
+  text-align: center;
+}
+
+// This creates the line
+.line-with-text:before,
+.line-with-text:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 10%;
+}
+
+// This create spaces between line and text
+.line-with-text:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.line-with-text:after {
+  left: 0.5em;
+  margin-right: -50%;
+}

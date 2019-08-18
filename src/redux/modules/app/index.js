@@ -2,7 +2,7 @@ import * as types from './types';
 
 export const initialState = {
   display: {
-    isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    isMobile: window.innerWidth <= 991
   },
   flash: {
     show: false,

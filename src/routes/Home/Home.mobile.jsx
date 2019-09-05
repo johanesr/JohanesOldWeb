@@ -98,11 +98,11 @@ class HomeMobile extends Component {
                       <div className="col-12 text-center"><img src={BinusLogo} className="experience-image" alt="BINUS"/></div>
                       <div className="col-12">
                         <div><h3><a href="https://binus.ac.id/">BINUS International</a></h3></div>
-                        <div className="experience-position">Currently Pursuing Computer Science Degree, Earned in 2020</div>
+                        <div className="experience-position">Currently Pursuing Computer Science Degree, Expected to graduate in 2020</div>
                         <div><strong>Jakarta, Indonesia</strong></div>
                         <div>
                           <ul>
-                            <li>Becomes BINUS STAR (Student Transnational Ambassador) student by joining the student exchange program and earned a GKS Scholarship in Korea</li>
+                            <li>Becomes BINUS STAR (Student Transnational Ambassador) student by joining the student exchange program and earned a GKS Scholarship in South Korea</li>
                             <li>Currently holds a 3.59/4.00 GPA</li>
                           </ul>
                         </div>

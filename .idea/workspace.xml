@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a0c1ae-4a06-4615-b4ef-f7ec8b61c007" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/Home.desktop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/Home.desktop.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home/assets/JohanesRonaldo_CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/assets/JohanesRonaldo_CV.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +50,8 @@
       <file leaf-file-name="Home.mobile.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+            <state relative-caret-position="1539">
+              <caret line="104" column="171" selection-start-line="104" selection-start-column="171" selection-end-line="104" selection-end-column="171" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -199,6 +196,14 @@
               <item name="johanes-fe" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="johanes-fe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="johanes-fe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
               <item name="NotFound" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,17 +268,17 @@
       <workItem from="1563096330282" duration="1930000" />
       <workItem from="1563594060912" duration="44176000" />
       <workItem from="1566138509772" duration="6249000" />
-      <workItem from="1567602822363" duration="3570000" />
+      <workItem from="1567602822363" duration="4519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81532000" />
+    <option name="totallyTimeSpent" value="82481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -282,7 +287,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2924138" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2924138" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -600,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+        <state relative-caret-position="1539">
+          <caret line="104" column="171" selection-start-line="104" selection-start-column="171" selection-end-line="104" selection-end-column="171" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

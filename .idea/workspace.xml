@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1a0c1ae-4a06-4615-b4ef-f7ec8b61c007" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home/assets/JohanesRonaldo_CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/assets/JohanesRonaldo_CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.mobile.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.mobile.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1539">
@@ -64,6 +63,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routes/Home/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -126,11 +134,11 @@
         <option value="$PROJECT_DIR$/src/routes/Home/components/About/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Header/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/Header/styles.scss" />
-        <option value="$PROJECT_DIR$/src/routes/Home/styles.scss" />
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/src/redux/configureStore.js" />
         <option value="$PROJECT_DIR$/src/routes/Home/Home.desktop.jsx" />
         <option value="$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx" />
+        <option value="$PROJECT_DIR$/src/routes/Home/styles.scss" />
       </list>
     </option>
   </component>
@@ -268,15 +276,16 @@
       <workItem from="1563096330282" duration="1930000" />
       <workItem from="1563594060912" duration="44176000" />
       <workItem from="1566138509772" duration="6249000" />
-      <workItem from="1567602822363" duration="4519000" />
+      <workItem from="1567602822363" duration="4753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82481000" />
+    <option name="totallyTimeSpent" value="82715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120730735" />
       <window_info anchor="bottom" id="TODO" order="5" />
@@ -507,13 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Home/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3495">
-          <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -593,6 +595,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="104" column="171" selection-start-line="104" selection-start-column="171" selection-end-line="104" selection-end-column="171" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.desktop.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -603,13 +615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Home/Home.mobile.jsx">
+    <entry file="file://$PROJECT_DIR$/src/routes/Home/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="104" column="171" selection-start-line="104" selection-start-column="171" selection-end-line="104" selection-end-column="171" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -4,8 +4,8 @@ import thunk from 'redux-thunk';
 import reducers from './reducers';
 
 const storeEnhancers = compose(
-  applyMiddleware(thunk),
-  window.devToolsExtension && window.devToolsExtension()
+  applyMiddleware(thunk)
+  // window.devToolsExtension && window.devToolsExtension()
 );
 
 const preLoadedState = {};

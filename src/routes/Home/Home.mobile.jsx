@@ -4,7 +4,6 @@ import Header from '../../components/Header';
 
 import ExperienceImage from './assets/experience.jpg';
 import ProfileImage from './assets/Johanes.jpg';
-import AboutMeImage from './assets/about-me.jpg'
 import InstagramLogo from './assets/instagram.png';
 import LinkedInLogo from './assets/linkedin.png';
 import TiketLogo from './assets/tiket.jpeg';
@@ -66,7 +65,16 @@ class HomeMobile extends Component {
                         <div><h3><a href="https://www.tiket.com">Tiket.com</a></h3></div>
                         <div className="experience-position">Front End Engineer (Intern), Dec 2018 - Jul 2019</div>
                         <div><strong>Jakarta, Indonesia</strong></div>
-                        <div>Description</div>
+                        <div>Work alongside other full-time front end engineers to build the front-end implementation of the membership platform using <strong>React and Redux</strong> under the direct guideline of the principal front-end engineer.</div>
+                        <div>
+                          <ul>
+                            <li>Complete the new UI for Tiket.com’s login, logout, signup, forgot-password, OTP (One Time Password), Security Settings and change-password page</li>
+                            <li>Integrate the front-end to the backend using GraphQL.</li>
+                            <li>Uses Jest and Enzyme as the JavaScript testing utility</li>
+                            <li>Uses SonarQube to reviews and analyzes code by detecting bugs, code smells and security vulnerabilities</li>
+                            <li>Learned to use Slack as a communication channel</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
 
@@ -92,14 +100,21 @@ class HomeMobile extends Component {
                         <div><h3><a href="https://binus.ac.id/">BINUS International</a></h3></div>
                         <div className="experience-position">Currently Pursuing Computer Science Degree, Earned in 2020</div>
                         <div><strong>Jakarta, Indonesia</strong></div>
-                        <div>Description</div>
+                        <div>
+                          <ul>
+                            <li>Becomes BINUS STAR (Student Transnational Ambassador) student by joining the student exchange program and earned a GKS Scholarship in Korea</li>
+                            <li>Currently holds a 3.59/4.00 GPA</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
                 )}
                 <div className=" text-center experience-show" onClick={this.handleExperience.bind(this)}>{!showExperience ? "Show Experiences" : "Remove Experiences"}</div>
                 <div className="text-center cv-download">
-                  <span>Click <a href={MyCV} download>Here</a> to Download My CV!</span>
+                  <span>Click <a href={MyCV} download>Here</a> to Download My CV!</span><br/>
+                  <span>&</span><br/>
+                  <span>Check my <a href="https://github.com/johanesr">Github Repository</a>!</span>
                 </div>
               </div>
             </div>

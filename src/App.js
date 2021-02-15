@@ -2,6 +2,8 @@ import React, {PureComponent} from 'react';
 import { connect } from 'react-redux';
 import { bool } from 'prop-types';
 
+import Navbar from './components/Navbar';
+
 import './App.css';
 
 import { renderRoutes } from 'react-router-config';
@@ -19,6 +21,7 @@ class App extends PureComponent{
 
     return (
       <div className={isMobile ? "mobile-layout" : "desktop-layout"}>
+        <Navbar />
         <BrowserRouter>
           {renderRoutes(routes)}
         </BrowserRouter>

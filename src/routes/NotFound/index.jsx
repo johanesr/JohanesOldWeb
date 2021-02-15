@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { bool } from 'prop-types';
 
+import './styles.scss';
+
 class NotFound extends Component {
   static propTypes = {
     isMobile: bool
@@ -12,7 +14,10 @@ class NotFound extends Component {
 
   render() {
     return (
-      <p>Test NotFound component</p>
+      <div className="not-found-wrapper">
+        <div>Page does not exist</div>
+        <a href="/">Go back to home page?</a>
+      </div>
     )
   }
 }

@@ -87,7 +87,7 @@ class HomeDesktop extends Component {
                 <div>
                   <ul>
                     <li>Becomes BINUS STAR (Student Transnational Ambassador) student by joining the student exchange program and earned a GKS Scholarship in Korea</li>
-                    <li>Currently holds a 3.59/4.00 GPA</li>
+                    <li>Currently holds a 3.67/4.00 GPA</li>
                   </ul>
                 </div>
               </div>
@@ -120,8 +120,8 @@ class HomeDesktop extends Component {
         <div className="home-contact">
           <div className="text-center"><img src={ProfileImage} className="profile-image" alt="Johanes"/></div>
           <div className="contact-title line-with-text">
-            <div><strong>I’m a Student From Indonesia</strong></div>
-            <div><strong>with a dream of being an entrepeneur</strong></div>
+            <div><strong>I’m a Fresh Graduate From Indonesia</strong></div>
+            <div><strong>in search of a Front End Engineer position</strong></div>
           </div>
           <div>Get in touch with me. <a href="https://www.linkedin.com/in/johanes-ronaldo-124866142/">LinkedIn</a> or <a href="https://www.instagram.com/ronaldo97/">Instagram</a> messages work best!</div>
           <div className="row contact-social-media">

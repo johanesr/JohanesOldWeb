@@ -21,7 +21,6 @@ class App extends PureComponent{
 
     return (
       <div className={isMobile ? "mobile-layout" : "desktop-layout"}>
-        <Navbar />
         <BrowserRouter>
           {renderRoutes(routes)}
         </BrowserRouter>
